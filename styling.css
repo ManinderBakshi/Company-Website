@@ -1,0 +1,236 @@
+#backgroundvd{
+    position: fixed;
+    min-height: 100%;
+    min-width: 100% ;
+    z-index: -100;
+}
+body{
+    font-family: 'Handlee', cursive;
+    position: relative;
+}
+
+.jumbotron{
+    background-color: transparent;
+    text-align: center;
+    padding-top: 10%;
+    color: #630202;
+}
+.jumbotron h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.jumbotron h2{
+    font-size: 40px;
+    margin-bottom: 80px;
+/*    font-weight: bold;*/
+}
+.btn{
+    font-size: 25px;
+    color: #630202;
+    border-radius: 15px;
+}
+
+#obj{
+ text-align: center;
+ padding-top: 100px;
+    color: white;
+}
+#obj img{
+    height: 150px;
+}
+#obj h1{
+    font-weight: bold;
+}
+#obj h2{
+    font-weight: bold;
+}
+#obj p{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#bonus{
+    padding-top: 100px;
+}
+#car{
+    width: 60%;
+    margin: 0 auto;
+    
+}
+.carousel-inner .item img{
+    height: 400px;
+    margin: 0 auto;
+}
+.carousel-caption{
+    position: relative;
+    left: auto;
+    right: auto;
+    height: 200px;
+}
+
+@media (max-width:768px){
+    .carousel-inner .item img{
+        height: 300px;
+    }
+    .carousel-inner h1{
+        font-size: 28px;
+        
+    }
+    .carousel-inner h2{
+        font-size: 23px;
+    }
+}
+@media (max-width:400px){
+    .carousel-inner .item img{
+        height: 200px;
+    }
+    .carousel-inner h1{
+        font-size: 22px;
+        
+    }
+    .carousel-inner h2{
+        font-size: 17px;
+    }
+    .navbar-brand{
+        font-size: 12px;
+    }
+}
+@media (max-device-width:768px){
+    #backgroundvd{
+        display: none;
+    }
+    body{
+        background: url("https://images.unsplash.com/photo-1580146644802-17c39e09e4fd?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80" ) center center;
+    background-size: cover;
+    }
+}
+.footer{
+    font-size: 35px;
+    color: white;
+/*    background-color: white;*/
+}
+.foot{
+    color: white;
+    font-size: 20px;
+    
+}
+.navbar-custom {
+    font-size: 20px;
+  background-color: #e0aa1f;
+  border-color: #9c7510;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#e6bb4c), to(#e0aa1f));
+  background-image: -webkit-linear-gradient(top, #e6bb4c, 0%, #e0aa1f, 100%);
+  background-image: -moz-linear-gradient(top, #e6bb4c 0%, #e0aa1f 100%);
+  background-image: linear-gradient(to bottom, #e6bb4c 0%, #e0aa1f 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe6bb4c', endColorstr='#ffe0aa1f', GradientType=0);
+}
+.navbar-custom .navbar-brand {
+  color: #ffffff;
+  font-size: 35px;
+  color: #d91111;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;    
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+  color: #e6e6e6;
+  background-color: transparent;
+}
+.navbar-custom .navbar-text {
+  color: #ffffff;
+}
+.navbar-custom .navbar-nav > li:last-child > a {
+  border-right: 1px solid #c3941b;
+}
+.navbar-custom .navbar-nav > li > a {
+  color: #ffffff;
+  border-left: 1px solid #c3941b;
+}
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: transparent;
+}
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #c3941b;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#c3941b), to(#e2b02f));
+  background-image: -webkit-linear-gradient(top, #c3941b, 0%, #e2b02f, 100%);
+  background-image: -moz-linear-gradient(top, #c3941b 0%, #e2b02f 100%);
+  background-image: linear-gradient(to bottom, #c3941b 0%, #e2b02f 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc3941b', endColorstr='#ffe2b02f', GradientType=0);
+}
+.navbar-custom .navbar-nav > .disabled > a,
+.navbar-custom .navbar-nav > .disabled > a:hover,
+.navbar-custom .navbar-nav > .disabled > a:focus {
+  color: #cccccc;
+  background-color: transparent;
+}
+.navbar-custom .navbar-toggle {
+  border-color: #dddddd;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #dddddd;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+  background-color: #cccccc;
+}
+.navbar-custom .navbar-collapse,
+.navbar-custom .navbar-form {
+  border-color: #c1921b;
+}
+.navbar-custom .navbar-nav > .dropdown > a:hover .caret,
+.navbar-custom .navbar-nav > .dropdown > a:focus .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+.navbar-custom .navbar-nav > .open > a,
+.navbar-custom .navbar-nav > .open > a:hover,
+.navbar-custom .navbar-nav > .open > a:focus {
+  background-color: #c3941b;
+  color: #ffffff;
+}
+.navbar-custom .navbar-nav > .open > a .caret,
+.navbar-custom .navbar-nav > .open > a:hover .caret,
+.navbar-custom .navbar-nav > .open > a:focus .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+.navbar-custom .navbar-nav > .dropdown > a .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+@media (max-width: 767) {
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+    background-color: transparent;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #c3941b;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #cccccc;
+    background-color: transparent;
+  }
+}
+.navbar-custom .navbar-link {
+  color: #ffffff;
+}
+.navbar-custom .navbar-link:hover {
+  color: #ffffff;
+}

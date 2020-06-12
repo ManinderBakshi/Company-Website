@@ -1,0 +1,175 @@
+<!--index.html-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Company Website</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="styling.css" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&family=Dancing+Script&family=Handlee&family=Permanent+Marker&display=swap" rel="stylesheet">
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#navbar">
+      <video id="backgroundvd" autoplay loop muted>
+          <source src="images/background.mp4" type="video/mp4">
+      
+      </video>
+      
+      <nav class="navbar navbar-custom navbar-fixed-top" id="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">Hiring your Desires! </a>
+                <button class="navbar-toggle" data-target="#navcollapse" data-toggle="collapse" type="button">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                
+            </div>
+            <div class="navbar-collapse collapse" id="navcollapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#home">Upload your Resume</a></li>
+                    <li><a href="#obj">Our Objectives and Metrics</a></li>
+                    <li><a href="#bonus">Bonus Section</a></li>
+                
+                </ul>
+            </div>
+          
+        </div>
+      </nav>
+      <div class="jumbotron" id="home">
+          <div class="container">
+          
+              <h1>Hiring an apt <br>FROM HIRE TO RETIRE </h1>
+              <h2>Everyone wants Super wo/man Employee</h2>
+              
+              <label for="upload"><button class="btn btn-warning" id="uploadfield"  onclick=" document.getElementById('uploadBtn').click(); "><span class="glyphicon glyphicon-file"></span>Upload Resume </button><input type="file" accept="application/pdf" id="uploadBtn" style="visibility: hidden; width: 0px; height: 0px"> </label>
+              
+          </div>
+      
+      </div>
+      
+      <div id="obj">
+          <div class="row">
+              <div class="container">
+                  <div class="col-md-4">
+                      <img src="images/one.png">
+                      <h1>Candidate Hit Ratio </h1>
+                      <h3>(No. Of Offers Made)<br>__________________<br>(No. Of Candidates Interviewed)</h3>
+                      <p>Candidate Hit Ratio is effectiveness of screening
+                        </p>
+                  </div>
+                  <div class="col-md-4">
+                      <img src="images/second.png">
+                      <h1>Reach Ratio </h1>
+                      <h3>(No. Considered for Interview)<br>_______________<br>(Total Resumes Screened)</h3>
+                      <p>Reach Ratio is efficiency of screening
+                      </p>
+                  </div>
+                  <div class="col-md-4">
+                      <img src="images/third.png">
+                      <h2>Maximizing “Candidate Hit Ratio” with an expanding “Reach Ratio” without affecting quality of “HIRES”
+                      </h2>
+                      <p>No. Of offers made and No. of offers accepted are different.
+                      </p>
+                  
+                  </div>
+              
+              </div>
+          </div>
+      </div>
+      
+      <div class="container-fluid" id="bonus">
+          <div class="carousel slide" id="car" data-ride="carousel">
+              <ol class="carousel-indicators">
+                  <li data-target="#car" data-slide-to="0" class="active"></li>
+                  <li data-target="#car" data-slide-to="1"></li>
+                  <li data-target="#car" data-slide-to="2"></li>
+                  <li data-target="#car" data-slide-to="3"></li>
+              </ol>
+              <div class="carousel-inner">
+                  <div class="item active">
+                      <img src="images/hiring.png">
+                      <div class="carousel-caption">
+                          <h1>
+                          Hiring
+                          </h1>
+                          <h2>Various aspects of hiring (Salary…)
+</h2>
+                      
+                      </div>
+                  
+                  </div>
+                  <div class="item">
+                      <img src="images/development.jpg">
+                      <div class="carousel-caption">
+                          <h1>Readiness
+</h1>
+                          <h2>
+                          What do employees need to be better..
+
+                          </h2>
+                      
+                      </div>
+                  
+                  </div>
+                  <div class="item">
+                      <img src="images/choosing.jpg">
+                      <div class="carousel-caption">
+                          <h1>Development
+
+</h1>
+                          <h2>
+                          Identify best managers / employees
+
+
+                          </h2>
+                      
+                      </div>
+                  
+                  </div>
+                  <div class="item">
+                      <img src="images/leaving.jpg">
+                      <div class="carousel-caption">
+                          <h1>Attrition
+
+</h1>
+                          <h2>
+Who and When an employee is leaving..
+
+                          </h2>
+                      
+                      </div>
+                  
+                  </div>
+              
+              </div>
+              <a class="left carousel-control" href="#car" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              </a>
+              <a class="right carousel-control" href="#car" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              </a>
+          
+          </div>
+      
+      </div>
+       <div class="footer">
+          <div class="container">
+            <p class="foot">&copy; Copyright 2020 Maninder</p>  
+          </div>
+      
+      </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
